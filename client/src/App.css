@@ -1,38 +1,134 @@
-.App {
+.header-container{
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  
+  background: #ffffff;
+  top: 0px;
+  box-shadow: 0px 4px 4px rgba(87, 122, 129, 0.15);
+  
+}
+.header-content{
+  height: 120px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-link-content{
+  display: flex;
+  position: relative;
+  left: -50px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  width: 500px;
+  justify-content: space-between;
+  
+}
+.header-link-content a{
+  text-decoration: none;
+  color: #c4c4c4;
+}
+.header-link-content a:hover{
+  color: #4FC5DF;
+
+}
+.user-header-content{
+    display: flex;
+    position: relative;
+    right: 10px;
+    width: 150px;
+    
+    align-items: center;
+    justify-content: space-evenly;
+}
+.user-header-content a{
+  text-decoration: none;
+  color: #c4c4c4;
+}
+
+#buddy-store-logo{
+  position: relative;
+  width: 230px;
+  height: 63.55px;
+  object-fit: cover;
+  left: 30px;
+  
+}
+.slideShow{
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 100%;
+  position: relative;
+  top: 120px;
+}
+.slide{
+  display: inline-block;
+  height: 600px;
+  width: 100%;
+  border-radius: 40px;
+}
+.slideShowSlider{
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+/* Buttons */
+.slideshowDots{
+  text-align: center;
+}
+.slideshowDot{
+  position: relative;
+  top: -50px;
+  
+  z-index: 10;
+  display: inline-block;
+  height:20px;
+  width:20px;
+  border-radius:50%;
+  cursor: pointer;
+  margin: 15px 7px 0px;
+  background-color: #c4c4c4
+}
+.slideshowDot.active{
+  background-color: #73CDE1;
+}
+
+.collection-container{
+  position: relative;
+  
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#collection-header{
+  font-family: "Brush Script MT", Brush Script Std, cursive;
+  
+  font-style: italic;
+  font-weight: normal;
+  font-size: 120px;
+  line-height: 144px;
+  color: #35B3CF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.collection-feature-container{
+  position: relative;
+  top: -50px;
+  height: 666px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.collection-feature-container div{
+  width: 400px;
+  height: 300px;
+  background-color: rgb(67, 179, 243);
+  border-bottom: red;
+  margin: 10px 0px 10px 10px;
+  
 }
