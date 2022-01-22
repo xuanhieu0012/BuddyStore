@@ -24,7 +24,7 @@ function ImageSlider(){
                     //     className="slide" 
                     //     key={index} 
                     //     style={{backgroundColor}} /> 
-                    <img className="slide" key={index} src={picture}/>
+                    <img className="slide" key={index} src={picture} alt='buddy'/>
                         ))}
                     
                 </div>

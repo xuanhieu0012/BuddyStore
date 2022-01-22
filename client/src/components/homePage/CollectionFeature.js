@@ -13,31 +13,31 @@ function CollectionFeature(){
         <div className="collection-feature-container">
 
             <div className="image-wrap-container">
-                <img class="image-container" src={sunscreens}/>
+                <img class="image-container" src={sunscreens} alt='sunscreens' />
                 <p className="image-description">Skin Care</p>
             </div>
 
             <div className="image-wrap-container">
-                <img class="image-container" src={teaPiano}/>
+                <img class="image-container" src={teaPiano} alt='teaPiano' />
                 <p className="image-description">Life Style</p>
             </div>
 
             <div className="image-wrap-container">
                 
-                <img class="image-container" src={tea}/>
+                <img class="image-container" src={tea} alt='tea' />
                 <p className="image-description">Tea</p>
                 </div>
 
             <div className="image-wrap-container">
-                <img class="image-container" src={skinCare}/>
+                <img class="image-container" src={skinCare} alt='skinCare'/>
                 <p className="image-description">Skin Saver</p>
             </div>
             <div className="image-wrap-container">
-                <img class="image-container" src={DBH}/>
+                <img class="image-container" src={DBH} alt='DBH'/>
                 <p className="image-description">DBH Skin Care</p>
             </div>
             <div className="image-wrap-container">
-                <img class="image-container" src={teaCup}/>
+                <img class="image-container" src={teaCup} alt='teaCup'/>
                 <p className="image-description">Tea</p>
             </div>
         </div>
