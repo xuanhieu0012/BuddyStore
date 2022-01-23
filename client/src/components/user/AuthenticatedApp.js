@@ -16,7 +16,7 @@ function AuthenticatedApp({currentUser, setCurrentUser}){
             }
         })
     }
-    return <div>
+    return <div className='login'>
         <button onClick={handleLogout}>Logout</button>
         <h1>You have been logged in</h1>
     </div>

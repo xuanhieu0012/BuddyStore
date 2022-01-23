@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import {Link} from 'react-router-dom'
-
+import Header from '../homePage/Header'
 function Signup({setCurrentUser}){
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
@@ -33,7 +33,7 @@ function Signup({setCurrentUser}){
     }
       return (
         <div className="login">
-            {/* <h3 className="you-signedup"> You're Signed up</h3> */}
+        
         <form  onSubmit={handleSubmit}>
             <div className="sign-up-form"> 
             <h1 className="signup-text">Sign Up</h1>

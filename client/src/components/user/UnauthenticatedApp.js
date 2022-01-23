@@ -5,10 +5,10 @@ import Signup from './Signup';
 function UnauthenticatedApp({setCurrentUser}){
     return (
     <Switch>
-        <Route exact path="/account">
+        <Route  path="/account">
             <Login setCurrentUser={setCurrentUser} />
         </Route>
-        <Route exact path="/signup">
+        <Route  path="/signup">
             <Signup setCurrentUser={setCurrentUser}/>
         </Route>
         <Redirect to="/account" />
