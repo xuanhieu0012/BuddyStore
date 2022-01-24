@@ -29,7 +29,7 @@ function CollectionFeature(){
                 </div>
 
             <div className="image-wrap-container">
-                <img class="image-container" src={skinCare} alt='skinCare'/>
+                <img className="image-container" src={skinCare} alt='skinCare'/>
                 <p className="image-description">Skin Saver</p>
             </div>
             <div className="image-wrap-container">

@@ -1,10 +1,10 @@
 import React,{useState} from 'react';
-import {Link} from 'react-router-dom'
+import {Link, useHistory} from 'react-router-dom'
 
 function Login({setCurrentUser}) {
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
-
+    const history = useHistory()
     const handleSubmit = (e) =>{
         e.preventDefault()
         fetch('/login', {
@@ -16,6 +16,7 @@ function Login({setCurrentUser}) {
             if (res.ok){
                 res.json().then(user =>{
                     setCurrentUser(user)
+                    {user.admin ? history.push('/admin') : history.push('/account')}
                 })
             } else {
                 res.json().then(errors => {

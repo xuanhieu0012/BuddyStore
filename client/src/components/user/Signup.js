@@ -1,10 +1,11 @@
 import React,{useState} from 'react';
-import {Link} from 'react-router-dom'
+import {Link, useHistory} from 'react-router-dom'
 import Header from '../homePage/Header'
 function Signup({setCurrentUser}){
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
     const [passwordConfirmation, setPasswordConfirmation] = useState('')
+    const history = useHistory()
     const handleSubmit = (event) => {
         event.preventDefault()
         fetch('/signup', {
@@ -22,7 +23,7 @@ function Signup({setCurrentUser}){
             if (res.ok) {
                 res.json().then(user => {
                 setCurrentUser(user)
-                
+                history.push('/account')
             })
             } else {
                 res.json().then(errors => {
@@ -84,7 +85,7 @@ function Signup({setCurrentUser}){
             </p>
             <p><button className="signup-button-two" type="submit">Sign Up</button></p>
             <p className="or-text-two">~  or ~</p>
-            <p className="text-center"><Link className="login-link" to="/account">Log In</Link></p>
+            <p className="text-center"><Link className="login-link" to="/login">Log In</Link></p>
             </div>
         </form>
         </div>

@@ -3,8 +3,9 @@ import {useState, useEffect} from 'react'
 import './App.css';
 import Home from './components/homePage/Home'
 import Account from './components/user/Account'
-import Signup from './components/user/Signup';
-import Login from './components/user/Login'
+
+
+import AdminHomePage from './components/admin page/AdminHomePage';
 function App() {
   const [currentUser, setCurrentUser] = useState(null)
   const [authChecked, setAuthChecked] = useState(false)
@@ -33,10 +34,10 @@ function App() {
           <Route path='/account'>
             <Account currentUser={currentUser} setCurrentUser={setCurrentUser} authChecked={authChecked} setAuthChecked={setAuthChecked} />
           </Route>
-          <Route path='/signup'>
-            <Signup />
-          </Route>
-        
+          <Route exact path='/admin'>
+              <AdminHomePage currentUser={currentUser} setCurrentUser={setCurrentUser}/>
+          </Route> 
+         
       </Switch>
         
     </div>
