@@ -17,17 +17,13 @@ function AuthenticatedApp({currentUser, setCurrentUser}){
         })
     }
     return (<div>
-        {currentUser.admin ? <Redirect to='/admin/dashboard'/> : 
+        
         <div className='login-user'>
             <h1>Welcome back, {currentUser.username}</h1>
             <button onClick={handleLogout}>Logout</button>
             
-        </div>}
-        {/* <div className='User-nav-bar'>
-            <Link to='/profile'>Profile</Link> 
-            <Link to='/orders'>Order History</Link>
-            <Link to='qu'
-        </div> */}
+        </div>
+       
     
 
     </div>)

@@ -16,7 +16,7 @@ function Login({setCurrentUser}) {
             if (res.ok){
                 res.json().then(user =>{
                     setCurrentUser(user)
-                    {user.admin ? history.push('/admin/dashboard') : history.push('/account')}
+                    history.push('/')
                 })
             } else {
                 res.json().then(errors => {

@@ -9,7 +9,7 @@ import Shop from './components/Shop/Shop'
 import Sales from './components/Sales/Sales'
 import Story from './components/Story/Story'
 import ContactUs from './components/ContactUs/ContactUs'
-import AdminHomePage from './components/admin page/AdminHomePage';
+
 function App() {
   const [currentUser, setCurrentUser] = useState(null)
   const [authChecked, setAuthChecked] = useState(false)
@@ -56,12 +56,6 @@ function App() {
           <Route path='/contactus'>
             <ContactUs />
           </Route>
-          {currentUser === null ? null : currentUser.admin ? <Route exact path='/admin/dashboard'>
-              <AdminHomePage currentUser={currentUser} setCurrentUser={setCurrentUser}/>
-          </Route> : <div>
-            <h1>You're not allow to access this page</h1>
-            <Link to="/">Go Back to Home Page</Link>
-          </div>}
          
       </Switch>
         
