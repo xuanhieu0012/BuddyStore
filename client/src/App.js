@@ -13,6 +13,14 @@ import ContactUs from './components/ContactUs/ContactUs'
 function App() {
   const [currentUser, setCurrentUser] = useState(null)
   const [authChecked, setAuthChecked] = useState(false)
+  const [shopData, setShopData] = useState(null)
+
+    useEffect(() => {
+        fetch('/products')
+        .then(res => res.json())
+        .then(data => setShopData(data))
+    },[])
+    console.log(shopData)
 
   useEffect(() => {
     fetch('/me',{
@@ -45,7 +53,7 @@ function App() {
             <Bestseller />
           </Route>
           <Route path='/shop'>
-            <Shop />
+            <Shop shopData={shopData}/>
           </Route>
           <Route path='/sales'>
             <Sales />
@@ -56,7 +64,7 @@ function App() {
           <Route path='/contactus'>
             <ContactUs />
           </Route>
-         
+        
       </Switch>
         
     </div>

@@ -7,7 +7,8 @@ class CreateProducts < ActiveRecord::Migration[6.1]
       t.string :description
       t.string :image_url, array: true
       t.string :category, array: true
-
+      t.boolean :bestSeller
+      t.integer :salePrice, null: true
       t.timestamps
     end
   end

@@ -22,6 +22,8 @@ ActiveRecord::Schema.define(version: 2022_01_23_230246) do
     t.string "description"
     t.string "image_url", array: true
     t.string "category", array: true
+    t.boolean "bestSeller"
+    t.integer "salePrice"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

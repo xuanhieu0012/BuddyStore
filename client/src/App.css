@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 .header-container{
   position: fixed;
   z-index: 10;
@@ -236,4 +239,33 @@
 .User-nav-bar{
   position: relative;
   top: 250px;
+}
+
+
+/* shop style */
+#shopimage{
+  position: relative;
+  width: 100%;
+  top: 120px;
+}
+#shoplineimage{
+  position: relative;
+  top: -150px;
+  width: 100%;
+}
+.top-image-shop{
+  margin-bottom: 50px;
+}
+
+.shop-health-care h1{
+  position: relative;
+  top: -30px;
+  font-family: 'Dancing Script', cursive;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 60px;
+  color: #35B3CF;
+  display: flex;
+  justify-content:center;
 }
