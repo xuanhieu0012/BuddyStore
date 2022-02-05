@@ -1,10 +1,15 @@
 import React from 'react';
 
 
-function ProductDisplay(){
-
+function ProductDisplay({product}){
+    
+    
+   
+    
+    console.log(product)
     return <div>
-        display product here
+        <img src={product.image_url[0]} alt='product' />
+        <b>{product.name}</b>
     </div>
 }
 

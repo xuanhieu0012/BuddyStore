@@ -7,7 +7,10 @@ function Shop({shopData}){
     
 
     
-    const displayProduct = shopData === null ? null : shopData.map(product => <ProductDisplay />)
+    const healthCareProduct = shopData === null ? null : shopData.map(product => product.category.includes('healthcare') ? <ProductDisplay product={product} /> : null)
+            
+    
+    
     return <div>
         <Header />
         <div>
@@ -17,6 +20,7 @@ function Shop({shopData}){
             </div>
             <div className='shop-health-care'>
                 <h1>Health Care</h1>
+                {healthCareProduct}
             </div>
         </div>
     </div>;

@@ -20,7 +20,7 @@ function App() {
         .then(res => res.json())
         .then(data => setShopData(data))
     },[])
-    console.log(shopData)
+    
 
   useEffect(() => {
     fetch('/me',{
