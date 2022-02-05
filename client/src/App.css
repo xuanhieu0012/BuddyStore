@@ -269,3 +269,31 @@
   display: flex;
   justify-content:center;
 }
+/* product image shop */
+.healthcare-product-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product-container{
+  width: 350px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image{
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+}
+.product-price{
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}

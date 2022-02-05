@@ -46,7 +46,7 @@ Product.create(name: 'DOUBLE WALL GLASS TOGO BOTTLE', price: 20 ,quantity: 50, d
 
 <p>✓ Easy and convenient, comfortable and drink.Soft and light skin, portable tough, and durable</p>
 
-<p>ONLY 4 COLORS AVAILABLE: Black, Gold, Rose, Silver</p>' , image_url: ['https://cdn.shopify.com/s/files/1/0267/5772/6399/products/6_800x.jpg?v=1610157252', 'https://cdn.shopify.com/s/files/1/0267/5772/6399/products/9_5d88e8de-d70f-4d38-a546-64d17cc9fa76_800x.jpg?v=1610157252', 'https://cdn.shopify.com/s/files/1/0267/5772/6399/products/17520520009_1141873188_800x.jpg?v=1610157253', 'https://cdn.shopify.com/s/files/1/0267/5772/6399/products/17590367673_1141873188_800x.jpg?v=1610157253'], category:['lifestyle','accessories'], bestSeller: true )
+<p>ONLY 4 COLORS AVAILABLE: Black, Gold, Rose, Silver</p>' , image_url: ['https://cdn.shopify.com/s/files/1/0267/5772/6399/products/6_800x.jpg?v=1610157252', 'https://cdn.shopify.com/s/files/1/0267/5772/6399/products/9_5d88e8de-d70f-4d38-a546-64d17cc9fa76_800x.jpg?v=1610157252', 'https://cdn.shopify.com/s/files/1/0267/5772/6399/products/17520520009_1141873188_800x.jpg?v=1610157253', 'https://cdn.shopify.com/s/files/1/0267/5772/6399/products/17590367673_1141873188_800x.jpg?v=1610157253'], category:['lifestyle','accessories'], bestSeller: true, salePrice: 15 )
 
 Product.create(name: 'Orihiro Amino Body diet', price:40 ,quantity: 50, description: '
 <p>The Orihiro Amino Body Diet helps to get rid of excess weight and improve overall health.</p>
@@ -56,7 +56,7 @@ Product.create(name: 'Orihiro Amino Body diet', price:40 ,quantity: 50, descript
     <li>Amino acids strengthen muscles, stimulate weight loss, improve mental health. Group B vitamins help to prevent sagging skin, keep it supple, firm, and elastic, improve cellular metabolism, and restore damaged areas.</li>
     <li>They also have a positive effect on the nervous system, help to cope with stress and provide the body with energy. Soy peptide stimulates muscle growth, prevents muscle weakness. It heals the digestive system, stimulates the fat burning process and normalizes the hormonal balance.</li>
     <li>Soy peptide reduces the cholesterol level and increases protein absorption. It neutralizes stress and helps to be active.</li>
-    </ul>', image_url: ['https://cdn.shopify.com/s/files/1/0267/5772/6399/products/IMG_6243_800x.jpg?v=1612467295','https://cdn.shopify.com/s/files/1/0267/5772/6399/products/Diet_post_800x.png?v=1612467295'], category:['healthcare','diet'], bestSeller: true  )
+    </ul>', image_url: ['https://cdn.shopify.com/s/files/1/0267/5772/6399/products/IMG_6243_800x.jpg?v=1612467295','https://cdn.shopify.com/s/files/1/0267/5772/6399/products/Diet_post_800x.png?v=1612467295'], category:['healthcare','diet'], bestSeller: true , salePrice: 30 )
 Product.create(name: 'Super Collagen Plus', price: 89 ,quantity: 20 , description:'
     <p>Wild fish-higher availability of omega 3s, more bioavailable/absorption, speed up desired skin/bone
     health </p>
