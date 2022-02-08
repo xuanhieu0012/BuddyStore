@@ -9,19 +9,23 @@ import Shop from './components/Shop/Shop'
 import Sales from './components/Sales/Sales'
 import Story from './components/Story/Story'
 import ContactUs from './components/ContactUs/ContactUs'
-
+import axios from 'axios';
 function App() {
   const [currentUser, setCurrentUser] = useState(null)
   const [authChecked, setAuthChecked] = useState(false)
   const [shopData, setShopData] = useState(null)
 
     useEffect(() => {
+      async function fetchData(){
+        await axios.get('/products')
         fetch('/products')
         .then(res => res.json())
         .then(data => setShopData(data))
+      }
+      fetchData()
     },[])
     
-
+    console.log(shopData)
   useEffect(() => {
     fetch('/me',{
       credentials: 'include'
