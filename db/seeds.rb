@@ -78,7 +78,52 @@ Product.create(name: 'Super Collagen Plus', price: 89 ,quantity: 20 , descriptio
     <p>-Helps sleep, reduce muscle spasm and period pain, treats cuts/wounds, reduce stress, lighten skin
     Acerola (Cherry)-Superfruits</p>
     <p>-Vitamin C, antioxidants, boost the immune system, diarrhea, liver problem</p>' , image_url: ['https://cdn.shopify.com/s/files/1/0267/5772/6399/products/9_800x.jpg?v=1603576133','https://cdn.shopify.com/s/files/1/0267/5772/6399/products/122552120_697001267688754_3671002063524319602_n_800x.jpg?v=1603576408'], category:['healthcare'], bestSeller: true  )
-# Product.create(name: '', price: ,quantity: , description: , image_url: [], category:[], bestSeller: false, salePrice: null)
-# Product.create(name: '', price: ,quantity: , description: , image_url: [], category:[], bestSeller: false, salePrice: null)
-# Product.create(name: '', price: ,quantity: , description: , image_url: [], category:[], bestSeller: false, salePrice: null)
-# Product.create(name: '', price: ,quantity: , description: , image_url: [], category:[], bestSeller: false, salePrice: null)
+Product.create(name: 'COCONUT OIL 100% ORGANIC', price: 7.99 ,quantity: 100 , description: "<ul>
+<li>Light & Nourishing ,Promotes Healthy-Looking Skin </li>
+<li>Condition: Dry skin or hair in need of comprehensive moisturization and nourishment.</li>
+<li>NOW Solutions Liquid Coconut Oil is a versatile cosmetic oil that's pleasingly light and easily absorbed for comprehensive moisturization without clogged pores</li>
+<li>Our fractionated Liquid Coconut Oil is colorless and odorless with a smooth, non-greasy texture that's ideal for a variety of personal care uses.</li>
+<li>Use it for dry skin, as a carrier oil for essential oils, for massage therapy, or as a base for handmade skin care products. </li>
+<li>Liquid Coconut Oil can also help to soften dry, damaged hair as well as add a healthy shine.</li>
+</ul", image_url: ['https://cdn.shopify.com/s/files/1/0267/5772/6399/products/153440457_150510963567731_6838923669471661807_n_800x.png?v=1614719926'], category:['healthcare','skincare'], bestSeller: true)
+Product.create(name: 'SUNSCREENS SKINSAVER SPF 30', price: 55 , quantity:30, description:"<ul>
+<li>Aloe barradensis leaf juice: smooth skin, anti-inflammatory, scar reducing and wounds healing properties, protect skin from UV damage. </li>
+<li>Sea whip extract: a powerful healing ingredient as it neutralizes enzymes that are responsible for irritation evident in skin sensitivity, sunburn and aging, as well as pain and swelling from acne. </li>
+<li>Glycerin: Anti-aging, anti-irritation, improve skin permeability, promotes cell maturation, smoother skin, improves skin elasticity, healing wound, control oil skin.</li><ul>" , image_url: ['https://cdn.shopify.com/s/files/1/0267/5772/6399/products/il_fullxfull.2477544222_eaz5_800x.jpg?v=1603841243'], category:['skincare','skinsaver'], bestSeller: false )
+Product.create(name: 'Neuglow L Premium White – Whitening Shining From Inside', price:120 ,quantity: 50, description:"
+<b>Neuglow L Premium White – Whitening Shining From Inside 28 Tablets </b>
+
+<p>Manufactured under the objective of HEALTHY WHITE, safe, whitening boost while bringing countless health benefits, such as strengthen the immune system, prevent diseases, cancer, fight against free radicals, enhance the detoxifying function of the body as well as eliminate toxins from the environment.</p>
+
+<b>Each Effervescent Tablet Contains:</b>
+<ul>
+<li>Vitamin C 1000mg </li>
+<li>L-Glutathione (Reduced) 500mg</li>
+<ul>
+<b>HOW TO USE:</b><p> Dissolve 1 effervescent tablet in about 200 ml of cold water. Wait for it to dissolve completely and drink immediately.</p>
+
+<strong>NOTE:</strong>
+<ul>
+<li>You can use less volume of water if you want a strong, juicy taste or you can also add some more water for the interested taste.</li>
+<li>It will be delicious if used in cold. The product does not contain sugar, so it does not cause weight gain.</li>
+<li>After dissolving, drink immediately. Do not leave in the air for long time in order to avoid the active substances to be oxidized and the effect reduces.</li>
+<li>Take with meals, immediately after eating or 1-2 hours after eating. Do not drink with an empty stomach.</li>
+</ul
+
+<b>REGIMEN</b>
+
+<b>First month: </b> <p>Attack dose. 02 tablets (morning and at night before you go to bed) in 02 months. For dark skin, 3 tablets in the first month and 2 tablets in the next 1 month.</p>
+<b>Third month: </b><p>Stabilization dose. 02 tablets alternating with 01 tablet daily for 01 month.</p>
+<b>Fourth month:</b> <p>Maintenance dose. 1 tablet per day in 1 month.</p>
+<b>From fifth month onwards:</b><p> Prevention dose. 2-3 tablets a week to lighten the skin, prevent melasma, hyperpigmentation, cancer as well as endogenously protect the skin from the sun, enhance immune system, anti-aging, scavenger radical and eliminate toxins from food and environment.</p>
+<b>PRESERVATION</b> 
+
+<p>Store in a cool and dry place.</p>
+<p>Keep out of reach of children.</p>" , image_url: ['https://cdn.shopify.com/s/files/1/0267/5772/6399/products/57_800x.jpg?v=1622607132'], category:['skincare, healthcare'], bestSeller: false)
+Product.create(name: 'MINT REFRESHING TONER (4OZ)', price: 57 ,quantity:100 , description: "INGREDIENTS
+Aqua, Aloe Barbadensis Leaf Juice, Hamamelis Virginiana (Witch Hazel) Leaf Extract, Hydrolyzed Candida Saitoana Extract, Allantoin, Niacinamide, Glycerin, Caprylhydroxamic Acid, Glyceryl Caprylate, Mint, Sodium Starch Octenylsuccinate, Calcium Pantothenate, Maltodextrin, Lavender Extract, Tocopheryl Acetate.
+
+FUNCTION
+FOR OILIER AND ACNEIC SKIN, THE MINT REFRESHING TONER IS AN EFFECTIVE DEGREASER AND ACNE TREATMENT IN ONE. GLYCOLIC ACID ALLOWS FOR LIGHT EXFOLIATION THAT ALLOWS WITCH HAZEL AND ALOE VERA TO PENETRATE THE SKIN FOR COMFORT AND SOFTENING
+
+DESCRIPTION: AFTER CLEANSING, LIGHTLY MIST OVER THE FA", image_url: ['https://cdn.shopify.com/s/files/1/0267/5772/6399/products/mint-refresh-toner-box-DSC_6326-min-scaled_800x.jpg?v=1603581734'], category:['skincare'], bestSeller: true)
