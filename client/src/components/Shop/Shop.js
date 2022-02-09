@@ -7,7 +7,7 @@ function Shop({shopData}){
     
 
     
-    const healthCareProduct = shopData === null ? null : shopData.map(product =>  <ProductDisplay product={product} /> )
+    const healthCareProduct = shopData === null ? null : shopData.slice(0,8).map(product =>  <ProductDisplay product={product} /> )
     // product.category.includes('healthcare') ?: null
     
     
