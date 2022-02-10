@@ -4,6 +4,7 @@ import ImageSlider from "../ImageSlider"
 import CollectionFeature from "./CollectionFeature"
 import Newarrivals from "./Newarrivals"
 import Sales from "./Sales";
+import Testimonial from './Testimonial'
 function Home({shopData}){
 
 
@@ -13,6 +14,7 @@ function Home({shopData}){
         <CollectionFeature />
         <Newarrivals shopData={shopData}/>
         <Sales shopData={shopData} />
+        <Testimonial />
     </div>
 }
 
