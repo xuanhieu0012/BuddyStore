@@ -14,7 +14,7 @@ function CollectionFeature(){
 
             <div className="image-wrap-container">
                 <img className="image-container" src={sunscreens} alt='sunscreens' />
-                <p className="image-description">Skin Care</p>
+                <p className="image-description">Beauty And Body Care</p>
             </div>
 
             <div className="image-wrap-container">
@@ -25,21 +25,14 @@ function CollectionFeature(){
             <div className="image-wrap-container">
                 
                 <img className="image-container" src={tea} alt='tea' />
-                <p className="image-description">Tea</p>
+                <p className="image-description">Health Care</p>
                 </div>
 
             <div className="image-wrap-container">
                 <img className="image-container" src={skinCare} alt='skinCare'/>
-                <p className="image-description">Skin Saver</p>
+                <p className="image-description">Skin Care</p>
             </div>
-            <div className="image-wrap-container">
-                <img className="image-container" src={DBH} alt='DBH'/>
-                <p className="image-description">DBH Skin Care</p>
-            </div>
-            <div className="image-wrap-container">
-                <img className="image-container" src={teaCup} alt='teaCup'/>
-                <p className="image-description">Tea</p>
-            </div>
+         
         </div>
     </div>
 }

@@ -99,31 +99,51 @@
   background-color: #73CDE1;
 }
 
+/* homepage */
 .collection-container{
   position: relative;
-  
+  margin-bottom: 50px;
   width: 100%;
   text-align: center;
 }
 
 #collection-header{
-  font-family: "Brush Script MT", Brush Script Std, cursive;
-  
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: auto;
   font-style: italic;
   font-weight: normal;
   font-size: 120px;
   line-height: 144px;
   color: #35B3CF;
 }
+.arrivals-header{
+  font-family: 'Dancing Script', cursive;
+  margin-top: auto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 120px;
+  line-height: 144px;
+  color: #35B3CF;
+  margin-bottom: auto;
+}
+.home-product-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .collection-feature-container{
   position: relative;
-  top: -50px;
-  height: 666px;
+
+  height: 700px;
+  
   display: flex;
   align-items: center;
+  align-content: center;
   flex-wrap: wrap;
   flex-direction: column;
+  justify-content: center;
   
   
 }
@@ -133,9 +153,7 @@
   margin: auto;
   width: 400px;
   height: 300px;
-  
-  
-  margin: 10px 0px 10px 10px;
+  margin: 10px 50px 30px 10px;
   display: flex;
   
   justify-content: center;
@@ -256,7 +274,9 @@
 .top-image-shop{
   margin-bottom: 50px;
 }
-
+.shop-health-care{
+  text-align: center;
+}
 .shop-health-care h1{
   position: relative;
   top: -30px;
@@ -270,12 +290,7 @@
   justify-content:center;
 }
 /* product image shop */
-.healthcare-product-container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+
 .product-container{
   width: 350px;
   height: 300px;

@@ -13,19 +13,17 @@ import axios from 'axios';
 function App() {
   const [currentUser, setCurrentUser] = useState(null)
   const [authChecked, setAuthChecked] = useState(false)
-  const [shopData, setShopData] = useState(null)
+  const [shopData, setShopData] = useState([])
 
     useEffect(() => {
-      async function fetchData(){
+      const  fetchData = async () =>{
         await axios.get('/products')
-        fetch('/products')
-        .then(res => res.json())
-        .then(data => setShopData(data))
+        .then(res=> setShopData(res.data))
       }
       fetchData()
     },[])
     
-    console.log(shopData)
+    
   useEffect(() => {
     fetch('/me',{
       credentials: 'include'
@@ -45,7 +43,7 @@ function App() {
     <div className="App">
       <Switch>
           <Route exact path='/'>
-            <Home />
+            <Home shopData={shopData}/>
           </Route> 
           <Route path='/account'>
             <Account currentUser={currentUser} setCurrentUser={setCurrentUser} authChecked={authChecked} setAuthChecked={setAuthChecked} />
