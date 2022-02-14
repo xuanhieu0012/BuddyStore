@@ -12,7 +12,7 @@
   
 }
 .header-content{
-  height: 120px;
+  height: 7.5vw;
   position: relative;
   display: flex;
   align-items: center;
@@ -67,10 +67,12 @@
   max-width: 100%;
   position: relative;
   top: 120px;
+  padding-bottom: 40px;
+  
 }
 .slide{
   display: inline-block;
-  height: 600px;
+  height: 45vw;
   width: 100%;
   border-radius: 40px;
 }
@@ -112,8 +114,8 @@
   margin-bottom: auto;
   font-style: italic;
   font-weight: normal;
-  font-size: 120px;
-  line-height: 144px;
+  font-size: 10vw;
+  
   color: #35B3CF;
 }
 .arrivals-header{
@@ -135,14 +137,15 @@
 
 .collection-feature-container{
   position: relative;
-
-  height: 700px;
-  
+  padding: 1em;
+  width: 80%;
+  /* height: 700px; */
+  margin: 0 auto;
   display: flex;
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   
   
