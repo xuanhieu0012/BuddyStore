@@ -5,6 +5,7 @@ import CollectionFeature from "./CollectionFeature"
 import Newarrivals from "./Newarrivals"
 import Sales from "./Sales";
 import Testimonial from './Testimonial'
+import Footer from '../Footer/Footer'
 function Home({shopData}){
 
 
@@ -15,6 +16,7 @@ function Home({shopData}){
         <Newarrivals shopData={shopData}/>
         <Sales shopData={shopData} />
         <Testimonial />
+        <Footer />
     </div>
 }
 
