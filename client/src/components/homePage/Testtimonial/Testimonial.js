@@ -1,5 +1,5 @@
 import React from 'react';
-import {BsFillHeartFill} from 'react-icons/bs'
+import './Style.css'
 
 export default function Testimonial(){
     const heartIcon = "❤❤❤❤❤"

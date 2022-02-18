@@ -1,53 +1,57 @@
 import React from 'react'
 import './Style.css'
+import logo from '../../assets/logo.png'
+import {Link} from 'react-router-dom'
+import facebook from '../../assets/Facebook.png'
+import instagram from '../../assets/Instagram.png'
+import card from '../../assets/card.png'
 export default function Footer() {
-  return <footer class="footer-distributed">
+  return <footer class="footer-container">
+	  
+	  		<div class="container-all-columns">
 
-			<div class="footer-left">
-          <img src="img/logo.png" />
-				<h3>About<span>Eduonix</span></h3>
+			
+				<div class="footer-left">
+					<img src={logo} />
+					<h2>3402 Shoreside dr, Garland, Texas 75042</h2>
+					<h2>buddystoreus @gmail.com</h2>
+					<h2><b>(469)-803-2992</b></h2>
+				
 
-				<p class="footer-links">
-					<a href="#">Home</a>
-					|
-					<a href="#">Blog</a>
-					|
-					<a href="#">About</a>
-					|
-					<a href="#">Contact</a>
-				</p>
+					{/* <p class="footer-company-name">© 2021 Buddy Store US</p> */}
+				</div>
+				<div class="footer-center">
+					<h2>Policies</h2>
+					<div class="footer-center-content">
+						<div className='footer-center-policy'>
+							<Link>Refund Policy</Link>
+							<Link>Terms of Service</Link>
+							<Link>Privacy Policy</Link>
+							<Link>Shipping Policy</Link>
+						</div>
+						<div className='footer-center-product-link'>
+							<Link>Best Seller</Link>
+							<Link>New Arrivals</Link>
+							<Link>Sales</Link>
+							<Link>Our Story</Link>
+						</div>
+					</div>
+				</div>
+				<div className='footer-right'>
+					<h2>Follow Us</h2>
+					<img src={facebook} onClick={(e) => {e.preventDefault()
+															window.open('https://www.facebook.com/BuddyStore', '_blank')
+														}}/>
 
-				<p class="footer-company-name">© 2019 Eduonix Learning Solutions Pvt. Ltd.</p>
+					<img src={instagram} onClick={(e) => {e.preventDefault()
+														window.open('https://www.instagram.com/buddystoreus/', '_blank')
+														}}/>
+					
+				</div>
 			</div>
-
-			<div class="footer-center">
-				<div>
-					<i class="fa fa-map-marker"></i>
-					  <p><span>309 - Rupa Solitaire,
-						 Bldg. No. A - 1, Sector - 1</span>
-						Mahape, Navi Mumbai - 400710</p>
-				</div>
-
-				<div>
-					<i class="fa fa-phone"></i>
-					<p>+91 22-27782183</p>
-				</div>
-				<div>
-					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:support@eduonix.com">support@eduonix.com</a></p>
-				</div>
-			</div>
-			<div class="footer-right">
-				<p class="footer-company-about">
-					<span>About the company</span>
-					We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
-				<div class="footer-icons">
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-instagram"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#"><i class="fa fa-youtube"></i></a>
-				</div>
+			<div className='bottom-footer'>
+				<p>© 2021 Buddy Store US</p>
+				<img src={card} />
 			</div>
 		</footer>
   

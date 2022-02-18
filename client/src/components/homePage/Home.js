@@ -4,13 +4,13 @@ import ImageSlider from "../ImageSlider"
 import CollectionFeature from "./CollectionFeature"
 import Newarrivals from "./Newarrivals"
 import Sales from "./Sales";
-import Testimonial from './Testimonial'
+import Testimonial from './Testtimonial/Testimonial'
 import Footer from '../Footer/Footer'
 function Home({shopData}){
 
 
     return <div>
-        <Header />
+        {/* <Header /> */}
         <ImageSlider />
         <CollectionFeature />
         <Newarrivals shopData={shopData}/>

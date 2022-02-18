@@ -1,0 +1,32 @@
+
+
+.testimonial-container{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .testimonial-content{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 20vw;
+    text-align: center;
+    white-space:pre-wrap
+  }
+  .testimonial-content p{
+    margin-top: 0px;
+  }
+  .testimonial-content span{
+    color: #FF84A9;
+    font-size: 20px;
+  }
+  @media (max-width: 880px) {
+    .testimonial-container, .testimonial-content{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+}
