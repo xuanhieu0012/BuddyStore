@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import {Link, useHistory} from 'react-router-dom'
-import Header from '../homePage/Header'
+import Header from "../NavBar/Header"
 function Signup({setCurrentUser}){
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')

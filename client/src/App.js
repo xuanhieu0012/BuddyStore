@@ -52,7 +52,7 @@ function App() {
             <Collection />
           </Route>
           <Route path='/bestseller'>
-            <Bestseller />
+            <Bestseller shopData={shopData}/>
           </Route>
           <Route path='/shop'>
             <Shop shopData={shopData}/>

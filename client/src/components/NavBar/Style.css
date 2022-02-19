@@ -1,0 +1,61 @@
+.header-container{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    
+    background: #ffffff;
+    top: 0px;
+    box-shadow: 0px 4px 4px rgba(87, 122, 129, 0.15);
+    
+}
+
+.header-content{
+    padding: 1.56em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#buddy-store-logo{
+    position: relative;
+    width: 230px;
+    height: 63.55px;
+    object-fit: cover;
+    left: 30px;
+    
+}
+.header-link-content{
+    display: flex;
+    position: relative;
+    left: -50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    width: 500px;
+    justify-content: space-between;
+    
+}
+.header-link-content a{
+    text-decoration: none;
+    color: #c4c4c4;
+}
+.header-link-content a:hover{
+    color: #4FC5DF;
+
+}
+
+.user-header-content{
+    display: flex;
+    position: relative;
+    right: 10px;
+    width: 150px;
+    
+    align-items: center;
+    justify-content: space-evenly;
+}
+.user-header-content a{
+    text-decoration: none;
+    color: #c4c4c4;
+}

@@ -1,16 +1,16 @@
 import React from "react";
-import Header from "./Header"
+import Header from "../NavBar/Header"
 import ImageSlider from "../ImageSlider"
 import CollectionFeature from "./CollectionFeature"
 import Newarrivals from "./Newarrivals"
 import Sales from "./Sales";
-import Testimonial from './Testtimonial/Testimonial'
+import Testimonial from '../Testtimonial/Testimonial'
 import Footer from '../Footer/Footer'
 function Home({shopData}){
 
 
     return <div>
-        {/* <Header /> */}
+        <Header />
         <ImageSlider />
         <CollectionFeature />
         <Newarrivals shopData={shopData}/>

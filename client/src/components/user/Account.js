@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../homePage/Header'
+import Header from "../NavBar/Header"
 import { BrowserRouter as Router, Route , Redirect, Link} from 'react-router-dom'
 import AuthenticatedApp from './AuthenticatedApp'
 import UnauthenticatedApp from './UnauthenticatedApp'

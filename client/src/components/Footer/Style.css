@@ -59,6 +59,7 @@ footer{
 	width: 50vw;
 	min-width: 250px;
 	max-width: 800px;
+	object-fit: contain;;
 }
 
 .footer-container .footer-left img{

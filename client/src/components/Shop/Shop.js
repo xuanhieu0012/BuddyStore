@@ -1,6 +1,6 @@
 import React,{useEffect, useState} from 'react';
 import ProductDisplay from './ProductDisplay';
-import Header from '../homePage/Header'
+import Header from "../NavBar/Header"
 import shopimage from '../../assets/shopimage.png'
 import line from '../../assets/line.png'
 function Shop({shopData}){

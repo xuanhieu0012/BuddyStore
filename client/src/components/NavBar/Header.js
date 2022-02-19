@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 import {VscAccount} from "react-icons/vsc"
 import {BsSearch} from "react-icons/bs"
 import {RiShoppingBag3Line} from "react-icons/ri"
+import './Style.css'
 function Header(){
 
     return <div className="header-container">

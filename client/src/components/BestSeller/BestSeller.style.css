@@ -1,0 +1,27 @@
+.best-seller-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15em;
+    align-items: center;
+}
+.best-seller-container h2{
+    font-family: 'Dancing Script', cursive;
+    margin-top: auto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 6rem;
+    line-height: 144px;
+    color: #35B3CF;
+    margin-bottom: auto;
+    
+}
+.best-seller-product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+    .best-seller-container h2{
+        font-size: 4rem
+    }
+}

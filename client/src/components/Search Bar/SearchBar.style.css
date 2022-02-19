@@ -1,0 +1,26 @@
+.search-bar-container{
+    position: absolute;
+    top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.search-bar-container input{
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    padding: 1em;
+    border: 1px solid #73CDE1;
+    box-sizing: border-box;
+    border-radius: 35px;
+}
+.search-icon{
+    position: relative;
+    font-size: 2em;
+    color: #73CDE1;
+    
+    left: -45px;
+    top: 12px;
+}
