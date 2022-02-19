@@ -5,12 +5,16 @@ import ProductDisplay from '../Shop/ProductDisplay'
 import './BestSeller.style.css'
 function Bestseller({shopData}){
 
-    const [searchInput, setSearchInput] = useState(null)
+    const [searchInput, setSearchInput] = useState("")
+    
     const onlyBestSeller = shopData.filter(product => product.bestSeller === true)
-    const displayProduct = onlyBestSeller.map(product => <ProductDisplay product= {product} key = {product.id} /> )
+
+    const filterProduct = onlyBestSeller.filter(product => product.name.toLowerCase().includes(searchInput.toLowerCase()))
+
+    const displayProduct = filterProduct.map(product => <ProductDisplay product= {product} key = {product.id} /> )
     return <div>
         <Header />
-        <SearchBar />
+        <SearchBar setSearchInput={setSearchInput}/>
         <div className="best-seller-container">
             <h2 id="header-best-seller">Best Seller</h2>
             <div className="best-seller-product">
