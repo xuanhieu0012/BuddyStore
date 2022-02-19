@@ -58,7 +58,7 @@ function App() {
             <Shop shopData={shopData}/>
           </Route>
           <Route path='/sales'>
-            <Sales />
+            <Sales shopData={shopData}/>
           </Route>
           <Route path='/story'>
             <Story />
