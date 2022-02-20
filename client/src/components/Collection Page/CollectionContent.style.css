@@ -1,0 +1,73 @@
+.CollectionContent-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collection-image-header{
+    padding-top: 7em;
+    padding-bottom: 5rem;
+}
+.collection-image-header img{
+    width: 100%;
+}
+
+/* content */
+.collection-life-style{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 3em;
+}
+.collection-image{
+    width: 40%;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+    
+}
+.collection-image:hover{
+    filter: drop-shadow(0 0 0.75rem rgba(79, 197, 223, 0.7));
+}
+.collection-image img{
+    width: 100%;
+    min-width: 180px
+}
+.collection-content h2{
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 5rem;
+    line-height: 60px;
+    color: #35B3CF;
+    margin: 0 auto;
+}
+.collection-content{
+    width: 40%;
+
+}
+
+@media(max-width:868px){
+    .collection-content h2{
+        font-size: 3rem;
+    }
+    .collection-content{
+        width: 50%;
+    
+    }
+}
+@media(max-width: 600px){
+    .collection-life-style{
+        display: flex;
+        flex-direction: column;
+    }
+    .collection-content{
+        width: 100%;
+    
+    }
+    .collection-image{
+        width: 100%;
+        height: 100%
+    }
+}

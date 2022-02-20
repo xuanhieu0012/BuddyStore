@@ -1,8 +1,12 @@
 import React from 'react';
-
+import Header from '../NavBar/Header'
+import CollectionContent from './CollectionContent';
 function Collection(){
 
-    return <div>This is a collection</div>
+    return <div>
+        <Header />
+        <CollectionContent />
+    </div>
 }
 
 export default Collection

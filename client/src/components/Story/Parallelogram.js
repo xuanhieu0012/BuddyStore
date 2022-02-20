@@ -8,15 +8,15 @@ function Parallelogram() {
     <div className="Parallelogram-container">
         <div className='parallelogram-shape1'>
         <p>Health Care</p>
-            <img src={story1} />
+            <img src={story1} alt='healthcare'/>
             
         </div>
         <div className='parallelogram-shape2'>
-            <img src={story2} />
+            <img src={story2} alt='skinCare'/>
             <p>Skin Care</p>
         </div>
         <div className='parallelogram-shape3'>
-            <img src={story3} />
+            <img src={story3} alt='lifestyle'/>
             <p>Life Style</p>
         </div>
       

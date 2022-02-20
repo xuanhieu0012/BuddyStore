@@ -16,7 +16,7 @@ function ImageSlider(){
         timeOutRef.current = setTimeout(()=> setIndex((prevIndex) =>prevIndex === colors.length - 1 ? 0 : prevIndex + 1)
         , 4000)
         return () => { resetTimeOut();};
-    },[index])
+    },[index, colors.length])
     return <div className="slideShow">
                 <div className="slideShowSlider" style={{transform: `translate3d(${-index * 100}%,0,0)`}}>
                     {colors.map((picture, index) => (

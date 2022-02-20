@@ -12,7 +12,7 @@ export default function Footer() {
 
 			
 				<div class="footer-left">
-					<img src={logo} />
+					<img src={logo} alt="buddy-logo"/>
 					<h2>3402 Shoreside dr, Garland, Texas 75042</h2>
 					<h2>buddystoreus @gmail.com</h2>
 					<h2><b>(469)-803-2992</b></h2>
@@ -39,11 +39,11 @@ export default function Footer() {
 				</div>
 				<div className='footer-right'>
 					<h2>Follow Us</h2>
-					<img src={facebook} onClick={(e) => {e.preventDefault()
+					<img src={facebook} alt="Facebook" onClick={(e) => {e.preventDefault()
 															window.open('https://www.facebook.com/BuddyStore', '_blank')
 														}}/>
 
-					<img src={instagram} onClick={(e) => {e.preventDefault()
+					<img src={instagram} alt="Instagram" onClick={(e) => {e.preventDefault()
 														window.open('https://www.instagram.com/buddystoreus/', '_blank')
 														}}/>
 					
@@ -51,7 +51,7 @@ export default function Footer() {
 			</div>
 			<div className='bottom-footer'>
 				<p>© 2021 Buddy Store US</p>
-				<img src={card} />
+				<img src={card} alt='card'/>
 			</div>
 		</footer>
   

@@ -34,3 +34,8 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+@media (max-width: 600px){
+    .shop-health-care h1{
+        font-size: 4rem;
+    }
+}
