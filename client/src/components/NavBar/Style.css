@@ -36,6 +36,7 @@
     text-decoration: none;
     color: #c4c4c4;
 }
+
 .header-link-content a:hover{
     color: #4FC5DF;
 
@@ -44,7 +45,7 @@
     padding: 0.5em;
 }
 .nav-link-container{
-    padding-left: 1em;
+    padding-left: 3em;
 }
 
 .user-header-content a{
@@ -54,6 +55,11 @@
 }
 .icon{
     display: none;
+}
+.active {
+    border-radius: 10px;
+    box-shadow: rgb(75 192 221 / 32%) 0px -50px 50px -33px inset
+    
 }
 @media (max-width: 1075px){
     .icon{
