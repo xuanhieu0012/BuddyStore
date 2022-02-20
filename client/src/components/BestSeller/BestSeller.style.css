@@ -24,4 +24,7 @@
     .best-seller-container h2{
         font-size: 4rem
     }
+    .best-seller-product{
+        justify-content:center;
+    }
 }

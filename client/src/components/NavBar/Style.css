@@ -2,39 +2,34 @@
     position: fixed;
     z-index: 10;
     width: 100%;
-    
+    padding: 1.4rem;
     background: #ffffff;
     top: 0px;
     box-shadow: 0px 4px 4px rgba(87, 122, 129, 0.15);
+   
+}
+
+
+.buddy-store-logo{
+    width: 25%;
+}
+.buddy-store-logo img{
+    position: relative;
+    width: 100%;
+    min-width: 180px;
+    max-width:240px;
+    object-fit: contain;
+   
     
 }
 
-.header-content{
-    padding: 1.56em;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-#buddy-store-logo{
-    position: relative;
-    width: 230px;
-    height: 63.55px;
-    object-fit: cover;
-    left: 30px;
-    
-}
 .header-link-content{
     display: flex;
-    position: relative;
-    left: -50px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
     font-size: 20px;
     line-height: 20px;
-    width: 500px;
+    width: 75%;
     justify-content: space-between;
+    align-items: center;
     
 }
 .header-link-content a{
@@ -45,17 +40,55 @@
     color: #4FC5DF;
 
 }
-
-.user-header-content{
-    display: flex;
-    position: relative;
-    right: 10px;
-    width: 150px;
-    
-    align-items: center;
-    justify-content: space-evenly;
+.nav-link-container a{
+    padding: 0.5em;
 }
+.nav-link-container{
+    padding-left: 1em;
+}
+
 .user-header-content a{
+    padding: 1em;
     text-decoration: none;
     color: #c4c4c4;
+}
+.icon{
+    display: none;
+}
+@media (max-width: 1075px){
+    .icon{
+        display:block;
+        float: right;
+        font-size: 2rem;
+        color: #4FC5DF
+    }
+    .header-link-content a {display: none;}
+
+    .header-link-content.responsive{
+        position: relative;
+        width: 100%;
+        float: right;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .header-link-content.responsive a{
+        float: none;
+        display: block;
+        text-align: right;
+    }
+    .header-content{
+        position: relative;
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+}
+@media (min-width: 1076px){
+    .header-container{
+      display: flex;
+        justify-content: space-between;
+    }
 }

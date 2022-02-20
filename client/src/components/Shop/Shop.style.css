@@ -1,0 +1,36 @@
+.top-image-shop{
+    margin-bottom: 50px;
+    padding-top:7.5rem
+}
+
+#shopimage{
+    position: relative;
+    width: 100%;
+  
+}
+#shoplineimage{
+    position: relative;
+    top: -20vw;
+    width: 100%;
+}
+.shop-health-care{
+    text-align: center;
+    position: relative;
+    top: -12vw;
+}
+.shop-health-care h1{
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 7rem;
+    line-height: 60px;
+    color: #35B3CF;
+   
+}
+.home-product-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}

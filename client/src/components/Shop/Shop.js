@@ -3,6 +3,7 @@ import ProductDisplay from './ProductDisplay';
 import Header from "../NavBar/Header"
 import shopimage from '../../assets/shopimage.png'
 import line from '../../assets/line.png'
+import './Shop.style.css'
 function Shop({shopData}){
     
 

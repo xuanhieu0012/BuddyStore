@@ -14,7 +14,7 @@ function Sales({shopData}){
         <Header />
         <Searchbar setSearchInput={setSearchInput}/>
         <div className="best-seller-container">
-            <h2 id="header-best-seller">Best Seller</h2>
+            <h2 id="header-best-seller">Sales</h2>
             <div className="best-seller-product">
                 {displayProduct}
             </div>

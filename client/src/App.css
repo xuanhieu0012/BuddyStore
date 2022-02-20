@@ -61,7 +61,7 @@
   margin-bottom: auto;
   font-style: italic;
   font-weight: normal;
-  font-size: 10vw;
+  font-size: 5rem;
   
   color: #35B3CF;
 }
@@ -70,17 +70,12 @@
   margin-top: auto;
   font-style: italic;
   font-weight: normal;
-  font-size: 120px;
+  font-size: 5rem;
   line-height: 144px;
   color: #35B3CF;
   margin-bottom: auto;
 }
-.home-product-container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+
 
 .collection-feature-container{
   position: relative;
@@ -210,36 +205,7 @@
 }
 
 
-/* shop style */
-#shopimage{
-  position: relative;
-  width: 100%;
-  top: 120px;
-}
-#shoplineimage{
-  position: relative;
-  top: -150px;
-  width: 100%;
-}
-.top-image-shop{
-  margin-bottom: 50px;
-}
-.shop-health-care{
-  text-align: center;
-}
-.shop-health-care h1{
-  position: relative;
-  top: -30px;
-  font-family: 'Dancing Script', cursive;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 100px;
-  line-height: 60px;
-  color: #35B3CF;
-  display: flex;
-  justify-content:center;
-}
-/* product image shop */
+
 
 
 

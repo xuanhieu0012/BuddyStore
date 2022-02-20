@@ -1,0 +1,115 @@
+.Parallelogram-container{
+    display: flex;
+    padding-top: 7.2rem;
+  
+}
+
+.parallelogram-shape1{
+    position: relative;
+    width: 40vw;
+	height: 40vw;
+	clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%);
+
+    
+}
+.parallelogram-shape1 p{
+    
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 2rem;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.parallelogram-shape1 img{
+    width: 100%;
+}
+.parallelogram-shape1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(115,205,225, 0.6);
+    transition: 1s ease-in-out;
+}
+.parallelogram-shape1:hover::before{
+    
+    background: rgba(115,205,225, 0) ;
+}
+
+/* shape 2 */
+.parallelogram-shape2{
+    position: relative;
+    width: 49vw;
+    height: 40vw;
+    -webkit-clip-path: polygon(24% 0, 90% 0%, 66% 100%, 0% 100%);
+    clip-path: polygon(24% 0, 90% 0%, 66% 100%, 0% 100%);
+    
+    margin-left: -11.2vw;
+    object-fit: cover;
+    
+}
+.parallelogram-shape2::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(115,205,225, 0.6);
+    transition: 1s ease-in-out;
+}
+.parallelogram-shape2 img{
+    width: 100%;
+    
+}
+.parallelogram-shape2 p{
+    
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 2rem;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.parallelogram-shape2:hover::before{
+    
+    background: rgba(115,205,225, 0) ;
+}
+/* shape 3 */
+
+.parallelogram-shape3{
+    position: relative;
+    width: 40vw;
+	height: 40vw;
+    clip-path: polygon(29.5% 0, 100% 0%, 100% 100%, 0 100%);
+    
+    margin-left: -16vw;
+    object-fit: cover;
+    
+}
+.parallelogram-shape3::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(115,205,225, 0.6);
+    transition: 1s ease-in-out;
+}
+.parallelogram-shape3 img{
+    width: 100%;
+}
+.parallelogram-shape3 p{
+    
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 2rem;
+    top: 40%;
+    left: 59%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.parallelogram-shape3:hover::before{
+    
+    background: rgba(115,205,225, 0) ;
+}
