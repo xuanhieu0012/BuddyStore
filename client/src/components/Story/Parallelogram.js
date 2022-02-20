@@ -19,10 +19,7 @@ function Parallelogram() {
             <img src={story3} />
             <p>Life Style</p>
         </div>
-        {/* <img src={story2} className=''/>
-        
-        
-        <img src={story3}  className='parallelogram-shape3' /> */}
+      
         
     </div>
   )

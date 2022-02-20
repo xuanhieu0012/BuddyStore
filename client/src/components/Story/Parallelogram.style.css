@@ -113,3 +113,14 @@
     
     background: rgba(115,205,225, 0) ;
 }
+
+@media (max-width: 768px){
+    .parallelogram-shape1 p, .parallelogram-shape2 p,.parallelogram-shape3 p{
+        font-size: 1.75em;
+    }
+}
+@media (max-width: 450px){
+    .parallelogram-shape1 p, .parallelogram-shape2 p,.parallelogram-shape3 p{
+        font-size: 1.25em;
+    }
+}

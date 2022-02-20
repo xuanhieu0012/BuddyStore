@@ -1,0 +1,51 @@
+
+.story-content-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+#story-header{
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: auto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 4rem;
+    color: #35B3CF;
+}
+.story-content-paragraph {
+    width: 80%;
+    
+}
+.story-content-paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.story-content-paragraph p{
+    text-align: left;
+    font-size: 1.5rem;
+}
+.story-content-paragraph b{
+    font-size: 1.5rem;
+}
+.quote{
+    padding: 2em;
+}
+.quote p{
+    margin: 0 auto;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: auto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 3rem;
+    color: #35B3CF;
+}
+@media (max-width: 600px) {
+    .quote p{
+        font-size: 2rem;
+    }
+    
+}
