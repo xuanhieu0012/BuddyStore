@@ -3,6 +3,8 @@ import Header from '../NavBar/Header'
 import Searchbar from '../Search Bar/SearchBar'
 import ProductDisplay from '../Shop/ProductDisplay'
 import '../Shop/Product.style.css'
+import Footer from '../Footer/Footer'
+import Testimonial from '../Testtimonial/Testimonial'
 function Sales({shopData}){
     const [searchInput, setSearchInput] = useState('')
     const salesProductArray = shopData.filter(product => product.salePrice !== null)
@@ -19,6 +21,8 @@ function Sales({shopData}){
                 {displayProduct}
             </div>
         </div>
+        <Testimonial />
+        <Footer />
     </div>
 
 }

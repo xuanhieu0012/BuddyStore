@@ -4,6 +4,8 @@ import Header from "../NavBar/Header"
 import shopimage from '../../assets/shopimage.png'
 import line from '../../assets/line.png'
 import './Shop.style.css'
+import Footer from '../Footer/Footer'
+import Testimonial from '../Testtimonial/Testimonial'
 function Shop({shopData}){
     
 
@@ -28,6 +30,8 @@ function Shop({shopData}){
             </div>
             
         </div>
+        <Testimonial />
+        <Footer />
     </div>;
 }
 

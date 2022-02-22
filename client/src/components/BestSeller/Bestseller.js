@@ -3,6 +3,8 @@ import Header from '../NavBar/Header.js'
 import SearchBar from '../Search Bar/SearchBar'
 import ProductDisplay from '../Shop/ProductDisplay'
 import './BestSeller.style.css'
+import Footer from '../Footer/Footer'
+import Testimonial from '../Testtimonial/Testimonial'
 function Bestseller({shopData}){
 
     const [searchInput, setSearchInput] = useState("")
@@ -22,6 +24,8 @@ function Bestseller({shopData}){
                 {displayProduct}
             </div>
         </div>
+        <Footer />
+        <Testimonial />
     </div>
 }
 

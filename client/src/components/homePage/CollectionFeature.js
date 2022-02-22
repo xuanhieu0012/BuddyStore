@@ -2,9 +2,9 @@ import React from 'react';
 import sunscreens from '../../assets/sunscreen.jpg'
 import tea from '../../assets/tea.jpg'
 import teaPiano from '../../assets/teaPiano.jpg'
-import DBH from '../../assets/DBH.png'
+import './collection.style.css'
 import skinCare from '../../assets/skinCare.png'
-import teaCup from '../../assets/teaCup.png'
+
 function CollectionFeature(){
 
 

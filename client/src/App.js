@@ -39,6 +39,7 @@ function App() {
       }
     })
   },[])
+  console.log(currentUser)
   return (
     <div className="App">
       <Switch>
@@ -64,7 +65,7 @@ function App() {
             <Story />
           </Route>
           <Route path='/contactus'>
-            <ContactUs />
+            <ContactUs currentUser={currentUser}/>
           </Route>
         
       </Switch>
