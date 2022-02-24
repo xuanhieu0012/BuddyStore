@@ -15,6 +15,8 @@ function ProductDisplay({product}){
                                                                     <del>$ {product.price} </del>
                                                                     <p>$ {product.salePrice}</p>
                                                                 </span>}
+        <button>Buy Now</button>
+        <button>Add to cart</button>
     </div>
 }
 
