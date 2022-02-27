@@ -4,7 +4,12 @@ import './Product.style.css'
 function ProductDisplay({product}){
     
     
-   
+   function handleBuyProduct(e){
+
+   }
+   function handleAddToCart(e){
+       
+   }
     
     
     return <div className="product-container">
@@ -15,8 +20,8 @@ function ProductDisplay({product}){
                                                                     <del>$ {product.price} </del>
                                                                     <p>$ {product.salePrice}</p>
                                                                 </span>}
-        <button>Buy Now</button>
-        <button>Add to cart</button>
+        <button onClick={handleBuyProduct} >Buy Now</button>
+        <button onClick ={handleAddToCart}>Add to cart</button>
     </div>
 }
 
