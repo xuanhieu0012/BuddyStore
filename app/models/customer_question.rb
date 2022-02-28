@@ -1,0 +1,2 @@
+class CustomerQuestion < ApplicationRecord
+end
