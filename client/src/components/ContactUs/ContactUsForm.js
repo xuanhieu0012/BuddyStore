@@ -20,7 +20,9 @@ function ContactUsForm({currentUser}) {
 
         }else{
             console.log(formData)
-
+            useEffect(() => {
+                fetch('/customer_questions',)
+            })
 
             setFormData({
                 id: currentUser ? currentUser.id : null,
